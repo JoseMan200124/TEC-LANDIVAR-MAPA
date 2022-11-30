@@ -5,19 +5,19 @@
 		
 		{
 			"id": "ciencias 3d",
-			"title": "Ciencias 3D",
+			"title": "Ciencias",
 			"color": "#001C4D",
 			"show": "false"
 		},
 		{
 			"id": "tecnologia 3d",
-			"title": "Tecnología 3D",
+			"title": "Tecnología",
 			"color": "#001C4D",
 			"show": "false"
 		},
 		{
 			"id": "integrada 3d",
-			"title": "Área integrada 3D",
+			"title": "Área integrada",
 			"color": "#001C4D",
 			"show": "false"
 		}
@@ -28,7 +28,7 @@
 	
                 {
             "id": "prueba",
-			"title": "Nivel 1 3d",
+			"title": "Nivel 1",
 			"map": "vistas/images/mall/tec_nivel1_of.png",
 			"minimap": "vistas/images/mall/tec_nivel1_of.png",
 			"show": "true",
@@ -47,7 +47,7 @@
 				}, 
                     {
 					"id": "Ciencias ambientales y agrícolas 3d",
-					"title": "Ciencias químicas con enfoque ambiental y agrícola 3d",
+					"title": "Ciencias químicas con enfoque ambiental y agrícola",
 					"description": "<p>Ubicación: <strong>T-104</strong></p>",
                      	"category": "ciencias 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
@@ -335,7 +335,7 @@
         },
 		{
 			"id": "second-3d",
-			"title": "Nivel 2 3d",
+			"title": "Nivel 2",
 			"map": "vistas/images/mall/tec_nivel2_of.png",
 			"minimap": "vistas/images/mall/tec_nivel2_of.png",
 			"locations": [
@@ -378,7 +378,7 @@
 				},
                                                                                                                     {
 					"id": "Física 3d",
-					"title": "Física 3d",
+					"title": "Física",
 					"description": "<p>Ubicación: <strong>T207 y T208</strong></p>",
 					"category": "ciencias 3d",
                      "thumbnail":"vistas/images/mall/iconoCiencias.svg",

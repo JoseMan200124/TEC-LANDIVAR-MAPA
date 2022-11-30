@@ -14,7 +14,7 @@
 
 <!--=====================Estilos Css===========================-->
 
-        <link rel="preload" type="text/css" href="<?php echo $url;?>vistas/css/map.css">
+        <link rel="preload" type="text/css" href="<?php echo $url;?>vistas/css/map.css" as="style">
         <link rel="stylesheet" type="text/css" href="<?php echo $url;?>vistas/mapplic/mapplic.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,13 +26,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="icon" href="<?php echo $url;?>images/mall/icono-pes.svg">
+
 <!--================PAGINA ACTUALIZADA SIEMPRE========================-->
-<script>
+<!--<script>
 setInterval(function() {
     $("html").load("plantilla.php");
 },3000);
-</script>
+</script>-->
 
 </head>
 <body>
@@ -67,6 +67,12 @@ text{
 /*$variable=date("Y-m-d H:i:s");
 echo '<p>'.$variable.'</p>';*/
 ?>
+<div id="preloader" class="preloader-container">
+	<div class="animation">
+		<div class="player">
+        <lottie-player src="https://lottie.host/6883869d-4a98-46c5-ad1e-2709f3b7eeb7/kV8NaQmmEZ.json" background="transparent" style="width: 300px; height: 300px;" speed="1" autoplay></lottie-player>		</div>
+	</div>
+</div>
 <section id="mapa">
 
 <div id="content">
@@ -177,11 +183,12 @@ foreach($horas as $key => $value){
        
     </section>
 </section>
+<script type="text/javascript" src="<?php echo $url;?>vistas/js/jquery.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="<?php echo $url;?>vistas/js/jquery.min.js"></script>
         <script type="text/javascript" src="<?php echo $url;?>vistas/js/hammer.min.js"></script>
         <script type="text/javascript" src="<?php echo $url;?>vistas/js/jquery.easing.js"></script>
         <script type="text/javascript" src="<?php echo $url;?>vistas/js/jquery.mousewheel.js"></script>
@@ -220,30 +227,39 @@ foreach($horas as $key => $value){
             });
         </script>
  <!--=====================Agregar clase a todas las imagenes para lazy load===========================-->
- <script type="text/javascript">   
+ <script type="module">   
 'use strict'
 
-window.addEventListener('load',function(){
-var imagenes = document.getElementsByTagName('img');
 //Agregar texto diferente a los botones
-var botones = document.querySelectorAll('mapplic-tooltip-link');
+var botones = document.getElementsByClassName('mapplic-tooltip-link');
 //Cambiar texto de los botones de mapplic
 for(var i = 0; i<botones.length;i++){
     botones[i].innerHTML = "ver más";
     console.log(botones[i]);
 }
-//Agregar clase a las imagenes para carga rápida
-var valor; 
 
-for(valor in imagenes){
-    imagenes[valor].attr("loading","lazy");
-    imagenes[valor].classList.add("lazyload");
-    console.log(valor); 
+</script>
+<script src='https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js'></script>
+<script>
+    let box = document.querySelector("#preloader"),
+	btn = document.querySelector("#skip");
 
+function fadeOut() {
+	box.classList.add("visuallyhidden");
+	box.addEventListener(
+		"transitionend",
+		function (e) {
+			box.classList.add("hidden");
+		},
+		{
+			capture: false,
+			once: true,
+			passive: false
+		}
+	);
 }
 
-});
-
+setTimeout(fadeOut, 6000);
 
 </script>
     </div>
