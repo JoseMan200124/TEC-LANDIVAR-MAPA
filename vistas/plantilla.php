@@ -21,6 +21,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
         <!-- CSS only -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,6 +63,58 @@ text{
 	font-weight: 700;
 
 }
+
+
+/* CSS */
+.button-58 {
+  align-items: center;
+  background-color: #06f;
+  border: 2px solid #06f;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-58:focus {
+  color: #171e29;
+}
+
+.button-58:hover {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+
+.button-58:active {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .button-58 {
+    min-width: 80px;
+  }
+}
+
+
 </style>
 
 <?php
@@ -80,7 +134,9 @@ echo '<p>'.$variable.'</p>';*/
 
         <!-- Map -->
         <div class="map-container">
-
+        <div class="rutas">
+          
+        </div>
 
             <div class="window-mockup">
                 <div class="window-bar"></div>
@@ -94,95 +150,8 @@ echo '<p>'.$variable.'</p>';*/
 
     </section>
 
-<section>
-    
-    <section id="disponibilidad">
-   <div class="container">
-    <div class="abs-center">
-    <div class="row">
-        <div class="col-sm-12 d-flex justify-content-center">
-
-           
-    
-        </div>
-    </div>  
-    <div class="row">
-
-  
-
-        <?php
-       /* llamada de archivo Json con información de los laboratorios 
-       $json = file_get_contents('vistas/tec.json');
-        $json_data = json_decode($json,true);
-         $otro = $value['locations']; 
-    
-$item = null; 
-$valor = null; 
-$horas = controladorMapa::obtenerHorariosCursos($item, $valor); 
-$laboratorios = controladorMapa::obtenerLaboratorio($item,$valor);
-$cursos = controladorMapa::obtenerCursos($item,$valor);
-$eventos = controladorMapa::eventos($item,$valor);
-$hora = new DateTime("now",new DateTimeZone('America/Guatemala'));
-$dia_actual = (int)$hora->format('d');
-echo $dia_actual;
-$hora_actual = (int)$hora->format('Hi');
-$mostrar_actual = strtotime($hora->format('Y-m-d'));
-$fecha_validacion = strtotime($hora->format('Y-m-d H:i:s'));
-echo'<h1>'.$hora->format('Hi').'</h1>'; 
-$validar_fecha = TRUE;
-foreach($horas as $key => $value){
-   // if($value["No_Salon"] == "A-11"){
-        echo'    <div class="col-md-6 d-flex">
-        <h1>'.$value["No_Salon"].'</h1>
-        </div>'; 
-      
-   // }
-}
-?>
-
- 
-
-        <?php
-        $item = null; 
-        $valor = null; 
-
-        foreach($horas as $key => $value){
-
-          
-            
-           
-            if(strtotime($value["Fecha_Fin"]) > $fecha_validacion &&  $fecha_validacion> strtotime($value["Fecha_Inicio"])) {
-                foreach($eventos as $key2 =>$value2){
-                    if( strtotime($value2["Fecha_Fin"]) == $mostrar_actual){
-                        echo '    <div class="col-md-6 d-flex">
-                    
-                        <p>----'.$value["Hora_Inicio"].'----</p>';
-                        echo '<p>----'.$value["Hora_Fin"].'-----</p>';
-                        if($hora_actual > (int)$value["Hora_Inicio"] && (int)$value["Hora_Fin"]> $hora_actual){
-                            echo'<h1> NO DISPONIBLE </h1>
-                            </div> ';
-                        }else{
-                            echo'<h1> DISPONIBLE</h1>
-                            </div> ';
-                        }
-                    }
-                }
-               
-                
-            }
-         
-
-        }
-        */
-        ?>
-
-    </div>
-    </div>
-   </div>
-     
-       
-    </section>
 </section>
+
 <script type="text/javascript" src="<?php echo $url;?>vistas/js/jquery.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
@@ -194,6 +163,7 @@ foreach($horas as $key => $value){
         <script type="text/javascript" src="<?php echo $url;?>vistas/js/jquery.mousewheel.js"></script>
         <script type="text/javascript" src="<?php echo $url;?>vistas/mapplic/mapplic.js"></script>
         <script type="text/javascript" src="<?php echo $url;?>vistas/js/lazyload.js"></script>
+
         <script type="text/javascript">
             $(document).ready(function() {
                 var mapplic = $('#mapplic').mapplic({
@@ -227,18 +197,7 @@ foreach($horas as $key => $value){
             });
         </script>
  <!--=====================Agregar clase a todas las imagenes para lazy load===========================-->
- <script type="module">   
-'use strict'
-
-//Agregar texto diferente a los botones
-var botones = document.getElementsByClassName('mapplic-tooltip-link');
-//Cambiar texto de los botones de mapplic
-for(var i = 0; i<botones.length;i++){
-    botones[i].innerHTML = "ver más";
-    console.log(botones[i]);
-}
-
-</script>
+ 
 <script src='https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js'></script>
 <script>
     let box = document.querySelector("#preloader"),
@@ -262,6 +221,8 @@ function fadeOut() {
 setTimeout(fadeOut, 6000);
 
 </script>
+<script type="text/javascript" src="<?php echo $url;?>vistas/js/rutas.js"></script>
+
     </div>
     </section>
 

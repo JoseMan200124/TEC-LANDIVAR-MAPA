@@ -908,3 +908,11 @@ g.mapplic-clickable > * {
 .visuallyhidden {
 	opacity: 0;
 }
+.rutas{
+	position: absolute;
+	z-index: 1;
+	left: 85%;
+}
+.rutas-botones{
+	display: flex;
+}
