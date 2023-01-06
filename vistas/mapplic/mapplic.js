@@ -68,6 +68,7 @@
 
 			return self;
 		}
+		
 
 		// Tooltip
 		function Tooltip() {

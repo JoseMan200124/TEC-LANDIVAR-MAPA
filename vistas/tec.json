@@ -36,51 +36,50 @@
 				{
 					"id": "Aplicaciones ambientales y agrícolas 3d",
 					"title": "Aplicaciones ambientales y agrícolas",
-					"description": "<p>Ubicación: <strong>T-107</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div>",
-                     	"category": "tecnologia 3d",
+					"description": "<p>Ubicación: <strong>T-107</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"aplicaciones_ambientales_y_agricolas\")' class='button-58'>Ver ruta</button></div>",
+                    "category": "tecnologia 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                     "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/dce_img_TEC_fotosportal_pr_2022_4-1024x575.jpg",
-                    "link":"https://tec.url.edu.gt/aplicaciones-ambientales-y-agricolas/",
+                   
 					"x": "0.6231",
 					"y": "0.5934",
-					"zoom": "1"
+					"zoom": "3" 
 				}, 
                     {
 					"id": "Ciencias ambientales y agrícolas 3d",
 					"title": "Ciencias químicas con enfoque ambiental y agrícola",
-					"description": "<p>Ubicación: <strong>T-104</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div>",
-                     	"category": "ciencias 3d",
+					"description": "<p>Ubicación: <strong>T-104</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"ciencias_ambientales_y_agricolas\")' class='button-58'>Ver ruta</button></div>",
+                    "category": "ciencias 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                     "image":"vistas/images/mall/labs/cienciasQuimicas.jpg",
-                    "link":"https://tec.url.edu.gt/aplicaciones-ambientales-y-agricolas/",
+                   
 					"x": "0.5848",
 					"y": "0.6164",
-					"zoom": "1"
+					"zoom": "3"
 				},
                   {
 					"id": "Ciencias biológicas 3d",
 					"title": "Ciencias biológicas",
-					"description": "<p>Ubicación: <strong>T-109</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div>",
+					"description": "<p>Ubicación: <strong>T-109</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"ciencias_biologicas\")' class='button-58'>Ver ruta</button></div>",
                      	"category": "ciencias 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                     "image":"vistas/images/mall/labs/cienciasBiologicas.jpg",
-                    "link":"https://tec.url.edu.gt/aplicaciones-ambientales-y-agricolas/",
+                   
 					"x": "0.6709",
 					"y": "0.5501",
-					"zoom": "1"
+					"zoom": "3"
                       
 				},	
                 {
 					"id": "Análisis químico instrumental 3d",
 					"title": "Análisis químico instrumental",
-					"description": "<p>Ubicación: <strong>T-110A</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div>",
+					"description": "<p>Ubicación: <strong>T-110A</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"analisis_quimico_instrumental_3d\")' class='button-58'>Ver ruta</button></div>",
 					"category": "ciencias 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                     "image":"vistas/images/mall/labs/analisisQuimicoInstrumental.jpg",
-                    "link":"https://tec.url.edu.gt/analisis-quimico-instrumental/",
 					"x": "0.5501",
 					"y": "0.5812",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 					"id": "Química específica 3d t113",
@@ -88,11 +87,10 @@
 					"description": "<p>Ubicación: <strong>T-113</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div>",
 					"category": "ciencias 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
-                    "link":"https://tec.url.edu.gt/quimica-especifica-t113/",
                     "image":"vistas/images/mall/labs/analiticaAmbiental.jpg",
 					"x": "0.3505",
 					"y": "0.6396",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 					"id": "Química general 3d",
@@ -100,11 +98,10 @@
 					"description": "<p>Ubicación: <strong>T117 y T118</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div>",
 					"category": "ciencias 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
-                     "link":"https://tec.url.edu.gt/quimica-general-t-117-y-t-118/",
          "image":"vistas/images/mall/labs/quimicaGeneral.jpg",
 		 "x": "0.4936",
 		 "y": "0.5471",
-					"zoom": "2"
+					"zoom": "3"
 				},
 				{
 					"id": "Química específica 3d t116",
@@ -112,11 +109,10 @@
 					"description": "<p>Ubicación: <strong>T116</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div>",
 					"category": "ciencias 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
-					"link": "https://tec.url.edu.gt/quimica-especifica-t116/",
                     "image":"vistas/images/mall/labs/quimicaEspecificaO.jpg",
 					"x": "0.4190",
 					"y": "0.5952",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 					"id": "Microbiología 3d",
@@ -126,10 +122,9 @@
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                                         "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/IMG_2268-1-1024x683.jpg",
 
-					"link":"https://tec.url.edu.gt/microbiologia/",
 					"x": "0.6127",
 					"y": "0.5406",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 					"id": "Operaciones unitarias 3d",
@@ -138,10 +133,9 @@
 					"category": "tecnologia 3d",                   
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"vistas/images/mall/labs/operacionesUnitarias.jpg",
-                    "link":"https://tec.url.edu.gt/operaciones-unitarias/",
 					"x": "0.3920",
 					"y": "0.4687",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 					"id": "Soldadura 3d",
@@ -151,10 +145,9 @@
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"vistas/images/mall/labs/soldadura.jpg",
 
-                      "link":"https://tec.url.edu.gt/soldadura/",
 					"x": "0.4387",
 					"y": "0.4388",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 					"id": "Herramientas y Mecánica de bancos 3d",
@@ -164,10 +157,9 @@
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                                         "image":"vistas/images/mall/labs/bancos.jpg",
 
-                    "link":"https://tec.url.edu.gt/herramientas-y-mecanica-de-bancos/",
 					"x": "0.4649",
 					"y": "0.4156",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Resistencia de materiales 3d",
@@ -176,10 +168,9 @@
 					"category": "tecnologia 3d",
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                      "image":"vistas/images/mall/labs/resistenciaDeMateriales.jpg",
-                     "link":"https://tec.url.edu.gt/resistencia-de-materiales/",
 					"x": "0.4514",
 					"y": "0.3763",
-					"zoom": "1"
+					"zoom": "3"
 				},  
 				{
 				    "id": "Planta piloto de alimentos 3d",
@@ -189,10 +180,9 @@
                     "thumbnail":"vistas/images/mall/iconoIntegral.svg",
                                          "image":"vistas/images/mall/labs/plantaPiloto.jpg",
 
-                    "link":"https://tec.url.edu.gt/planta-piloto-de-alimentos/",
 					"x": "0.5097",
 					"y": "0.3829",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Autotrónica 3d",
@@ -201,10 +191,9 @@
 					"category": "tecnologia 3d",
                         "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                      "image":"vistas/images/mall/labs/autotronica.jpg",
-                     "link":"https://tec.url.edu.gt/autotronica/",
 					"x": "0.5762",
 					"y": "0.3361",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Refrigeración y aire acondicionado 3d",
@@ -213,10 +202,9 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"vistas/images/mall/labs/refrigeracion.jpg",
-                    "link":"https://tec.url.edu.gt/refrigeracion-y-aire-acondicionado/",
 					"x": "0.5826",
 					"y": "0.3829",
-					"zoom": "1"
+					"zoom": "3"
 				}
                 ,
 				{
@@ -226,10 +214,9 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                      "image":"vistas/images/mall/labs/hidraulica.jpg",
-                     "link":"https://tec.url.edu.gt/hidraulica-y-neumatica/",
 					"x": "0.6175",
 					"y": "0.3550",
-					"zoom": "1"
+					"zoom": "3"
 				}
                 ,
 				{
@@ -239,9 +226,10 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/18022022-DSC_3171-1024x685.jpg",
-                     "link":"https://tec.url.edu.gt/control-y-automatizacion-de-procesos/",
 					"x": "0.6456",
-					"y": "0.4061"
+					"y": "0.4061",
+					"zoom":"3"
+
 				},
 				{
 				    "id": "Manufactura integrada por computadora 3d",
@@ -250,10 +238,9 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                        "image":"vistas/images/mall/labs/manufactura.jpg",
-                    "link":"https://tec.url.edu.gt/manufactura-integrada-por-computadora/",
 					"x": "0.6570",
 					"y": "0.4459",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Sala de vinculación 3d",
@@ -262,10 +249,9 @@
 					"category": "integrada 3d",
                      "thumbnail":"vistas/images/mall/iconoIntegral.svg",
                     "image":"vistas/images/mall/labs/salaVinculacion.jpg",
-                    "link":"https://tec.url.edu.gt/vinculacion/",
 					"x": "0.4358",
 					"y": "0.6670",
-					"zoom": "1"
+					"zoom": "3"
 				}
                 ,
 				{
@@ -275,10 +261,9 @@
 					"category": "integrada 3d",
                      "thumbnail":"vistas/images/mall/iconoIntegral.svg",
                      "image":"vistas/images/mall/labs/balistica.jpg",
-                    "link":"https://tec.url.edu.gt/computacion-y-comparacion-balistica/",
 					"x": "0.6135",
 					"y": "0.4344",
-					"zoom": "1"
+					"zoom": "3"
 				}
                 ,
 				{
@@ -288,10 +273,9 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoIntegral.svg",
                       "image":"vistas/images/mall/labs/biotecnologia.jpg",
-                    "link":"https://tec.url.edu.gt/biotecnologia/",
 					"x": "0.3077",
 					"y": "0.5520",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Alimentos y bebidas 3d",
@@ -300,10 +284,9 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoIntegral.svg",
                       "image":"vistas/images/mall/labs/alimentosYbebidas.jpg",
-                    "link":"https://tec.url.edu.gt/biotecnologia/",
 					"x": "0.3152",
 					"y": "0.4926",
-					"zoom": "1"
+					"zoom": "3"
 				},
                 {
 				    "id": "CTA 3d",
@@ -312,23 +295,21 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoIntegral.svg",
                       "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/IMG_7310-1024x768.jpg",
-                    "link":"https://tec.url.edu.gt/centro-de-tecnologias-alternativas-cta/",
 					"x": "0.3328",
 					"y": "0.4343",
-					"zoom": "1"
+					"zoom": "3"
 				},
                 {
 				    "id": "Inmunología y Microbiología médica 3d",
 					"title": "Inmunología y Microbiología médica 3d",
-					"description": "<p>Ubicación: <strong>T103</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div>",
+					"description": "<p>Ubicación: <strong>T103</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"inmunologia_y_microbiologia_medica\")' class='button-58'>Ver ruta</button></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoIntegral.svg",
                                           "image":"vistas/images/mall/labs/inmunologia.jpg",
 
-                    "link":"https://tec.url.edu.gt/inmunologia/",                    
 					"x": "0.5428",
 					"y": "0.6440",
-					"zoom": "1"
+					"zoom": "3"
 				}
           
             ]
@@ -346,10 +327,9 @@
 					"category": "tecnologia 3d",
                          "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                          "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/18022022-DSC_2975-1024x685.jpg",
-                         "link":"https://tec.url.edu.gt/computo-t-203-y-t-204/",
 					"x": "0.5382",
 					"y": "0.5737",
-					"zoom": "1"
+					"zoom": "3"
 					
 				},
                 {
@@ -359,10 +339,10 @@
                      	"category": "tecnologia 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                     "image":"vistas/images/mall/labs/analiticaAmbiental2.jpg",
-                    "link":"https://tec.url.edu.gt/aplicaciones-ambientales-y-agricolas/",
+                   
 					"x": "0.3752",
 					"y": "0.3973",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 					"id": "Ingeniería de métodos 3d",
@@ -371,10 +351,9 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/IMG_2122-1024x493.jpg",
-                     "link":"https://tec.url.edu.gt/ingenieria-de-metodos/",
 					"x": "0.4320",
 					"y": "0.4244",
-					"zoom": "1"
+					"zoom": "3"
 				},
                                                                                                                     {
 					"id": "Física 3d",
@@ -383,10 +362,9 @@
 					"category": "ciencias 3d",
                      "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                                             "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/IMG_2170-926x1024.jpg",
-                        "link":"https://tec.url.edu.gt/fisica",
 					"x": "0.5031",
 					"y": "0.3502",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 					"id": "Potencia y energías renovables 3d",
@@ -395,10 +373,9 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                           "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/18022022-DSC_2970-1024x686.jpg",
-					"link": "https://tec.url.edu.gt/potencia-electrica-y-energias-renovables/",
 					"x": "0.5552",
 					"y": "0.3531",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 					"id": "Electrónica 3d",
@@ -407,10 +384,9 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-18-at-9.26.01-AM.jpeg",
-					"link": "https://tec.url.edu.gt/electronica/",
 					"x": "0.5836",
 					"y": "0.3315",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 					"id": "Radiocomunicaciones 3d",
@@ -419,10 +395,9 @@
 					"category": "tecnologia 3d",
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"vistas/images/mall/labs/redesprivadas_211.jpg",
-                    "link": "https://tec.url.edu.gt/redes-privadas-211a/",
 					"x": "0.6207",
 					"y": "0.4095",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 					"id": "Redes privadas 3d t211",
@@ -431,10 +406,9 @@
 					"category": "tecnologia 3d",
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"vistas/images/mall/labs/radiocomunicaciones.jpg",
-                    "link": "https://tec.url.edu.gt/radiocomunicaciones/",
 					"x": "0.6095",
 					"y": "0.3835",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 					"id": "Hardware 3d",
@@ -443,11 +417,10 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                      "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/IMG_2117-1-scaled.jpg",
-                    "link": "https://tec.url.edu.gt/hardware/",
 
 					"x": "0.5746",
 					"y": "0.4119",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Software 3d t213",
@@ -456,10 +429,9 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                       "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-18-at-8.34.20-AM-1024x768.jpeg",
-                     "link": "https://tec.url.edu.gt/software/",
 					"x": "0.6069",
 					"y": "0.4457",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Redes privadas 3d",
@@ -469,11 +441,10 @@
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                                           "image":"vistas/images/mall/labs/redesPrivadas_214.jpeg",
 
-                    "link": "https://tec.url.edu.gt/redes-privadas-214/",
 
 					"x": "0.6463",
 					"y": "0.4379",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Telecomunicaciones 3d",
@@ -482,11 +453,10 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                        "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/18022022-DSC_3051-1024x686.jpg",
-                    "link": "https://tec.url.edu.gt/telecomunicaciones/",
 
 					"x": "0.4011",
 					"y": "0.4489",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Suelos 3d",
@@ -495,10 +465,9 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                         "image":"vistas/images/mall/labs/suelos.jpg",
-                       "link": "https://tec.url.edu.gt/suelos/",
 					"x": "0.3936",
 					"y": "0.3843",
-					"zoom": "1"
+					"zoom": "3"
 				}
                 ,
 				{
@@ -508,10 +477,9 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                       "image":"https://tec.url.edu.gt/wp-content/uploads/2022/04/18022022-DSC_3058-1024x685.jpg",
-                       "link": "https://tec.url.edu.gt/asfaltos/",
 					"x": "0.3608",
 					"y": "0.3819",
-					"zoom": "1"
+					"zoom": "3"
 				}
                 ,
 				{
@@ -521,11 +489,10 @@
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                       "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/18022022-DSC_3072-1024x685.jpg",
-                    "link": "https://tec.url.edu.gt/topografia/",
 
 					"x": "0.3785",
 					"y": "0.4198",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Fablab 3d",
@@ -535,10 +502,9 @@
                      "thumbnail":"vistas/images/mall/iconoIntegral.svg",
                                           "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/WhatsApp-Image-2022-01-12-at-8.18.31-AM-1024x414.jpeg",
 
-                	"link": "https://tec.url.edu.gt/fablab/",
 					"x": "0.4545",
 					"y": "0.3924",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Multitec 3d",
@@ -547,10 +513,9 @@
 					"category": "integrada 3d",
                      "thumbnail":"vistas/images/mall/iconoIntegral.svg",
                        "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/IMG_2105-1024x990.jpg",
-                         "link": "https://tec.url.edu.gt/multitec/",
 					"x": "0.4792",
 					"y": "0.3773",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Fisiología humana 3d",
@@ -559,11 +524,10 @@
 					"category": "ciencias 3d",
                      "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                      "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/23022022-DSC_0175-1024x686.jpg",
-                    "link": "https://tec.url.edu.gt/fisiologia-humana/",
 
 					"x": "0.6139",
 					"y": "0.5184",
-					"zoom": "1"
+					"zoom": "3"
 				},
 				{
 				    "id": "Anatomía humana 3d",
@@ -572,10 +536,9 @@
 					"category": "ciencias 3d",
                      "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                      "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/IMG_2385-1-1024x683.jpg",
-                     "link": "https://tec.url.edu.gt/anatomia-humana/",
 					"x": "0.5846",
 					"y": "0.5371",
-					"zoom": "1"
+					"zoom": "3"
 				}
 			]
 		},
@@ -593,10 +556,9 @@
                          "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                                              "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/23022022-DSC_0032-1024x685.jpg",
 
-                         "link":"https://tec.url.edu.gt/quimica-crimfor/",
 					"x": "0.6551",
 					"y": "0.3402",
-					"zoom": "1"
+					"zoom": "3"
 				},
                    	{
 					"id": "Escena del crimen 3d",
@@ -606,10 +568,9 @@
                          "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                                                                      "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/23022022-DSC_0109-1024x685.jpg",
 
-                         "link":"https://tec.url.edu.gt/escena-del-crimen/",
 					"x": "0.5931",
 					"y": "0.4029",
-					"zoom": "1"
+					"zoom": "3"
 				}
                 ,
                    	{
@@ -620,10 +581,9 @@
                          "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                             "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/23022022-DSC_0131-1024x686.jpg",
 
-                         "link":"https://tec.url.edu.gt/identificacion-personal/",
 					"x": "0.5431",
 					"y": "0.4472",
-					"zoom": "1"
+					"zoom": "3"
 				} ,
                    	{
 					"id": "Innovation Lab 3d",
@@ -633,10 +593,9 @@
                          "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                         "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/DCE_img_faceconomicas_FotosInnovationLab_JP_2022_9-1024x668.jpg",
 
-                         "link":"https://tec.url.edu.gt/innovation-lab/",
 					"x": "0.3506",
 					"y": "0.6473",
-					"zoom": "1"
+					"zoom": "3"
 				}
 				
 			]

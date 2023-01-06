@@ -151,7 +151,9 @@ echo '<p>'.$variable.'</p>';*/
     </section>
 
 </section>
-
+<div id="video-overlay" class="video-overlay">
+  <a class="video-overlay-close">&times;</a>
+</div>
 <script type="text/javascript" src="<?php echo $url;?>vistas/js/jquery.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
