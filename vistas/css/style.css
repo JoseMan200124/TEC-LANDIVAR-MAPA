@@ -347,3 +347,8 @@ section.blue {
 .title{
 	padding: 1.5rem;
 }
+.color-diponibilidad{
+	width: 15px;
+	height: 15px;
+	background-color: green;
+}

@@ -114,7 +114,12 @@ text{
   }
 }
 
-
+.color-diponibilidad{
+	
+}
+.disponibilidad-laboratorio{
+	display: flex;
+}
 </style>
 
 <?php
@@ -131,7 +136,8 @@ echo '<p>'.$variable.'</p>';*/
 
 <div id="content">
     <section id="map-section" class="inner over">
-
+  
+    
         <!-- Map -->
         <div class="map-container">
         <div class="rutas">
@@ -141,19 +147,21 @@ echo '<p>'.$variable.'</p>';*/
             <div class="window-mockup">
                 <div class="window-bar"></div>
             </div>
-
+            
             <div id="mapplic2"></div>
 
-            <div id="mapplic"></div>
+            <div id="mapplic">
+            <div id="video-overlay" class="video-overlay">
+  <a style="color:#fff;" class="video-overlay-close">&times;</a>
+</div>
+            </div>
 
         </div>
 
     </section>
 
 </section>
-<div id="video-overlay" class="video-overlay">
-  <a class="video-overlay-close">&times;</a>
-</div>
+
 <script type="text/javascript" src="<?php echo $url;?>vistas/js/jquery.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>

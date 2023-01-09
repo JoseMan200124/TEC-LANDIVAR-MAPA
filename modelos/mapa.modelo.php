@@ -31,6 +31,9 @@ class modeloMapa{
         $stmt = null;
 
     }
+    static public function mdlObtenerDisponibilidad(){
+
+    }
        
 
 }
