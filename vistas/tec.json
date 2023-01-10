@@ -323,7 +323,7 @@
                 	{
 					"id": "Computo 3d",
 					"title": "Computo",
-					"description": "<p>Ubicación: <strong>T203 y T204</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T203 y T204</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"computo\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "tecnologia 3d",
                          "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                          "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/18022022-DSC_2975-1024x685.jpg",
@@ -358,7 +358,7 @@
                                                                                                                     {
 					"id": "Física 3d",
 					"title": "Física",
-					"description": "<p>Ubicación: <strong>T207 y T208</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T207 y T208</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"fisica\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "ciencias 3d",
                      "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                                             "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/IMG_2170-926x1024.jpg",
@@ -369,7 +369,7 @@
 				{
 					"id": "Potencia y energías renovables 3d",
 					"title": "Potencia y energías renovables",
-					"description": "<p>Ubicación: <strong>T209</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T209</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"potencia_y_energias_renovables\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                           "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/18022022-DSC_2970-1024x686.jpg",
@@ -380,7 +380,7 @@
 				{
 					"id": "Electrónica 3d",
 					"title": "Electrónica",
-					"description": "<p>Ubicación: <strong>T210</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T210</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"electronica\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-18-at-9.26.01-AM.jpeg",
@@ -391,7 +391,7 @@
 				{
 					"id": "Radiocomunicaciones 3d",
 					"title": "Radiocomunicaciones",
-					"description": "<p>Ubicación: <strong>T211A</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T211A</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"radiocomunicaciones\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "tecnologia 3d",
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"vistas/images/mall/labs/redesprivadas_211.jpg",
@@ -413,7 +413,7 @@
 				{
 					"id": "Hardware 3d",
 					"title": "Hardware",
-					"description": "<p>Ubicación: <strong>T212</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T212</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"hardware\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                      "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/IMG_2117-1-scaled.jpg",
@@ -425,7 +425,7 @@
 				{
 				    "id": "Software 3d t213",
 					"title": "Software",
-					"description": "<p>Ubicación: <strong>T213</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T213</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"software\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                       "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-18-at-8.34.20-AM-1024x768.jpeg",
@@ -436,7 +436,7 @@
 				{
 				    "id": "Redes privadas 3d",
 					"title": "Redes privadas",
-					"description": "<p>Ubicación: <strong>T214</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T214</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"redes_privadas\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                                           "image":"vistas/images/mall/labs/redesPrivadas_214.jpeg",
@@ -497,7 +497,7 @@
 				{
 				    "id": "Fablab 3d",
 					"title": "Fablab",
-					"description": "<p>Ubicación: <strong>T206A</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T206A</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"fablab\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "integrada 3d",
                      "thumbnail":"vistas/images/mall/iconoIntegral.svg",
                                           "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/WhatsApp-Image-2022-01-12-at-8.18.31-AM-1024x414.jpeg",
@@ -509,7 +509,7 @@
 				{
 				    "id": "Multitec 3d",
 					"title": "Multitec",
-					"description": "<p>Ubicación: <strong>T206A</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T206A</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"multitec\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "integrada 3d",
                      "thumbnail":"vistas/images/mall/iconoIntegral.svg",
                        "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/IMG_2105-1024x990.jpg",
@@ -520,7 +520,7 @@
 				{
 				    "id": "Fisiología humana 3d",
 					"title": "Fisiología humana",
-					"description": "<p>Ubicación: <strong>T201</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T201</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"fisiologia_humana\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "ciencias 3d",
                      "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                      "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/23022022-DSC_0175-1024x686.jpg",
@@ -532,7 +532,7 @@
 				{
 				    "id": "Anatomía humana 3d",
 					"title": "Anatomía humana",
-					"description": "<p>Ubicación: <strong>T202</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T202</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"anatomia_humana\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "ciencias 3d",
                      "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                      "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/IMG_2385-1-1024x683.jpg",
