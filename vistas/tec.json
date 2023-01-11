@@ -129,7 +129,7 @@
 				{
 					"id": "Operaciones unitarias 3d",
 					"title": "Operaciones unitarias",
-					"description": "<p>Ubicación: <strong>T119</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T119</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"operaciones_unitarias\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "tecnologia 3d",                   
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"vistas/images/mall/labs/operacionesUnitarias.jpg",
@@ -245,7 +245,7 @@
 				{
 				    "id": "Sala de vinculación 3d",
 					"title": "Sala de vinculación 3d",
-					"description": "<p>Ubicación: <strong>T101</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><a style='color:#fff;margin-top:20px;' class='button-58' role='button'>Ver ruta</a></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T101</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"sala_de_vinculacion\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "integrada 3d",
                      "thumbnail":"vistas/images/mall/iconoIntegral.svg",
                     "image":"vistas/images/mall/labs/salaVinculacion.jpg",
@@ -347,7 +347,7 @@
 				{
 					"id": "Ingeniería de métodos 3d",
 					"title": "Ingenería de métodos",
-					"description": "<p>Ubicación: <strong>T206B</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"ingenieria_de_metodos\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T206B</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"ingeneria_de_metodos\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/IMG_2122-1024x493.jpg",
@@ -400,12 +400,12 @@
 					"zoom": "3"
 				},
 				{
-					"id": "Redes privadas 3d t211",
-					"title": "Redes privadas",
-					"description": "<p>Ubicación: <strong>T211B</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"id": "Analisis Arquitectonico Y Urbano",
+					"title": "Analisis arquitectonico y urbano",
+					"description": "<p>Ubicación: <strong>T211B</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"analisis_arquitectonico_y_urbano\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
 					"category": "tecnologia 3d",
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
-                    "image":"vistas/images/mall/labs/radiocomunicaciones.jpg",
+                    "image":"vistas/images/mall/labs/211b.jpg",
 					"x": "0.6095",
 					"y": "0.3835",
 					"zoom": "3"
