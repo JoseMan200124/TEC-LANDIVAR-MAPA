@@ -123,9 +123,52 @@ text{
 </style>
 
 <?php
-/*$variable=date("Y-m-d H:i:s");
-echo '<p>'.$variable.'</p>';*/
+date_default_timezone_set('America/Guatemala');
+$dia = date("l"); 
+$fechaActual = date('Y-d-m H:i:s.u');
+$horaActual = date('Hi');
+$fechaActualSubsting = substr($fechaActual,0,-3);
+var_dump($fechaActualSubsting);
+var_dump($horaActual);
+$No_dia = 0; 
+
+if($dia == "Monday"){
+    $No_dia = 1; 
+}
+if($dia == "Tuesday"){
+    $No_dia = 2; 
+}
+if($dia == "Wednesday"){
+    $No_dia = 3; 
+}
+if($dia == "Thursday"){
+    $No_dia = 4; 
+}
+if($dia == "Friday"){
+    $No_dia = 5; 
+}
+if($dia == "Saturday"){
+    $No_dia = 6; 
+}
+if($dia == "Sunday"){
+    $No_dia = 7; 
+}
+
+$disponibilidad = controladorMapa::ctrHorariosLabs($No_dia, $fechaActualSubsting, 'T-204', $horaActual);
+$nombreCurso = controladorMapa::ctrObtenerNombreCurso($disponibilidad[0]["No_Curso"]); 
+
+if(empty($disponibilidad)){
+    var_dump("Disponible");
+}else{
+    echo '<h1>'.$disponibilidad[0]["Hora_Inicio"].'</h1>';
+    echo '<h1>'.$disponibilidad[0]["Hora_Fin"].'</h1>';
+    echo '<h1>'.$nombreCurso[0]["Nombre"].'</h1>';
+
+    var_dump("No Disponible");
+}
+
 ?>
+
 <div id="preloader" class="preloader-container">
 	<div class="animation">
 		<div class="player">
