@@ -36,7 +36,7 @@
 				{
 					"id": "Aplicaciones ambientales y agrícolas 3d",
 					"title": "Aplicaciones ambientales y agrícolas",
-					"description": "<p>Ubicación: <strong>T-107</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"aplicaciones_ambientales_y_agricolas\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T-107</strong></p><div class='rutas-botones'>  <button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div></div>",
                     "category": "tecnologia 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                     "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/dce_img_TEC_fotosportal_pr_2022_4-1024x575.jpg",
@@ -48,7 +48,7 @@
                     {
 					"id": "Ciencias ambientales y agrícolas 3d",
 					"title": "Ciencias químicas con enfoque ambiental y agrícola",
-					"description": "<p>Ubicación: <strong>T-104</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"ciencias_ambientales_y_agricolas\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T-104</strong></p><div><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='disponibilidad(\"B-10\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"ciencias_ambientales_y_agricolas\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"></div>",
                     "category": "ciencias 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                     "image":"vistas/images/mall/labs/cienciasQuimicas.jpg",
@@ -129,7 +129,7 @@
 				{
 					"id": "Operaciones unitarias 3d",
 					"title": "Operaciones unitarias",
-					"description": "<p>Ubicación: <strong>T119</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"operaciones_unitarias\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T119</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-119\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"operaciones_unitarias\")' class='button-58'>Ver ruta</button></div>",
 					"category": "tecnologia 3d",                   
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"vistas/images/mall/labs/operacionesUnitarias.jpg",
@@ -164,7 +164,7 @@
 				{
 				    "id": "Resistencia de materiales 3d",
 					"title": "Resistencia de materiales",
-					"description": "<p>Ubicación: <strong>T120C</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"resistencia_de_materiales\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T120C</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-120C\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"resistencia_de_materiales\")' class='button-58'>Ver ruta</button></div>",
 					"category": "tecnologia 3d",
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                      "image":"vistas/images/mall/labs/resistenciaDeMateriales.jpg",
@@ -210,7 +210,7 @@
 				{
 				    "id": "Hidráulica y Neumática 3d",
 					"title": "Hidráulica y Neumática",
-					"description": "<p>Ubicación: <strong>T124</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"hidraulica_y_neumatica\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T124</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-124\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"hidraulica_y_neumatica\")' class='button-58'>Ver ruta</button></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                      "image":"vistas/images/mall/labs/hidraulica.jpg",
@@ -222,7 +222,7 @@
 				{
 				    "id": "Control y Automatización de procesos 3d",
 					"title": "Control y Automatición de procesos",
-					"description": "<p>Ubicación: <strong>T125</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"control_y_automatizacion_de_procesos\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T125</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-125\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"control_y_automatizacion_de_procesos\")' class='button-58'>Ver ruta</button></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/18022022-DSC_3171-1024x685.jpg",
@@ -323,7 +323,7 @@
                 	{
 					"id": "Computo 3d",
 					"title": "Computo",
-					"description": "<p>Ubicación: <strong>T203 y T204</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"computo\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T203 y T204</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-204\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"computo\")' class='button-58'>Ver ruta</button></div>",
 					"category": "tecnologia 3d",
                          "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                          "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/18022022-DSC_2975-1024x685.jpg",
@@ -380,7 +380,7 @@
 				{
 					"id": "Electrónica 3d",
 					"title": "Electrónica",
-					"description": "<p>Ubicación: <strong>T210</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"electronica\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T210</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-210\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"electronica\")' class='button-58'>Ver ruta</button></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-18-at-9.26.01-AM.jpeg",
@@ -449,7 +449,7 @@
 				{
 				    "id": "Telecomunicaciones 3d",
 					"title": "Telecomunicaciones",
-					"description": "<p>Ubicación: <strong>T216</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"telecomunicaciones\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T216</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-216\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"telecomunicaciones\")' class='button-58'>Ver ruta</button></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                        "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/18022022-DSC_3051-1024x686.jpg",

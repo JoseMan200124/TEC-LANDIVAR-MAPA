@@ -919,7 +919,18 @@ g.mapplic-clickable > * {
 .rutas-botones{
 	display: flex;
 }
-
+.video-overlay {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.80);
+	opacity: 0;
+	transition: all ease 500ms;
+  }
+  
   .video-overlay.open {
 	position: fixed;
 	z-index: 1000;
@@ -953,6 +964,4 @@ g.mapplic-clickable > * {
 	/* height: auto; */
 	box-shadow: 0 0 15px rgba(0,0,0,0.75);
   }
-  .rotate-phone-please{
-	display: none;
-  }
+ 

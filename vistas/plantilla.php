@@ -24,11 +24,22 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="<?php echo $url;?>vistas/css/sweetalert.css">
+<script src="<?php echo $url;?>vistas/js/sweetalert.min.js" type="text/javascript"></script>
+
 <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109684595-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-109684595-1');
+</script>
 <!--================PAGINA ACTUALIZADA SIEMPRE========================-->
 <!--<script>
 setInterval(function() {
@@ -91,7 +102,31 @@ text{
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-
+.button-59 {
+  align-items: center;
+  background-color: #FE0000;
+  border: 2px solid #FE0000;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #FE0000;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
 .button-58:focus {
   color: #171e29;
 }
@@ -105,6 +140,22 @@ text{
 .button-58:active {
   background-color: #3385ff;
   border-color: #3385ff;
+  fill: #06f;
+}
+
+.button-59:focus {
+  color: #FE0000;
+}
+
+.button-59:hover {
+  background-color: #F74040;
+  border-color: #F74040;
+  fill: #06f;
+}
+
+.button-59:active {
+  background-color: #F74040;
+  border-color: #F74040;
   fill: #06f;
 }
 
@@ -123,52 +174,9 @@ text{
 </style>
 
 <?php
-date_default_timezone_set('America/Guatemala');
-$dia = date("l"); 
-$fechaActual = date('Y-d-m H:i:s.u');
-$horaActual = date('Hi');
-$fechaActualSubsting = substr($fechaActual,0,-3);
-var_dump($fechaActualSubsting);
-var_dump($horaActual);
-$No_dia = 0; 
-
-if($dia == "Monday"){
-    $No_dia = 1; 
-}
-if($dia == "Tuesday"){
-    $No_dia = 2; 
-}
-if($dia == "Wednesday"){
-    $No_dia = 3; 
-}
-if($dia == "Thursday"){
-    $No_dia = 4; 
-}
-if($dia == "Friday"){
-    $No_dia = 5; 
-}
-if($dia == "Saturday"){
-    $No_dia = 6; 
-}
-if($dia == "Sunday"){
-    $No_dia = 7; 
-}
-
-$disponibilidad = controladorMapa::ctrHorariosLabs($No_dia, $fechaActualSubsting, 'T-204', $horaActual);
-$nombreCurso = controladorMapa::ctrObtenerNombreCurso($disponibilidad[0]["No_Curso"]); 
-
-if(empty($disponibilidad)){
-    var_dump("Disponible");
-}else{
-    echo '<h1>'.$disponibilidad[0]["Hora_Inicio"].'</h1>';
-    echo '<h1>'.$disponibilidad[0]["Hora_Fin"].'</h1>';
-    echo '<h1>'.$nombreCurso[0]["Nombre"].'</h1>';
-
-    var_dump("No Disponible");
-}
-
+/*$variable=date("Y-m-d H:i:s");
+echo '<p>'.$variable.'</p>';*/
 ?>
-
 <div id="preloader" class="preloader-container">
 	<div class="animation">
 		<div class="player">
@@ -204,7 +212,7 @@ if(empty($disponibilidad)){
     </section>
 
 </section>
-
+<div class="disponibilidad-mostrar"></div>
 <script type="text/javascript" src="<?php echo $url;?>vistas/js/jquery.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
@@ -274,6 +282,7 @@ function fadeOut() {
 setTimeout(fadeOut, 6000);
 
 </script>
+
 <script type="text/javascript" src="<?php echo $url;?>vistas/js/rutas.js"></script>
 
     </div>
