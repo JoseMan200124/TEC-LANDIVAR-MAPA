@@ -4,7 +4,10 @@ require_once "../modelos/mapa.modelo.php";
 if($_POST['action'] == 'T-204'){
 mostrarDisponibilidad('T-204');
 
-}
+}if($_POST['action'] == 'T-213'){
+    mostrarDisponibilidad('T-213');
+
+} 
 if($_POST['action'] == 'T-125'){
     mostrarDisponibilidad('T-125');
     
@@ -28,8 +31,26 @@ if($_POST['action'] == 'T-119'){
     mostrarDisponibilidad('T-119');
     
 }
-else{
-    echo$_POST['action'];
+if($_POST['action'] == 'T-214'){
+    mostrarDisponibilidad('T-214');
+    
+}
+if($_POST['action'] == 'T-212'){
+    mostrarDisponibilidad('T-212');
+    
+}
+if($_POST['action'] == 'T-206A'){
+    mostrarDisponibilidad('T-206A');
+
+}
+if($_POST['action'] == 'T-206B'){
+    mostrarDisponibilidad('T-206B');
+
+}
+if($_POST['action'] == 'B-10'){
+//T-116
+    mostrarDisponibilidad('B-10');
+
 }
 function mostrarDisponibilidad($lab){
     date_default_timezone_set('America/Guatemala');
@@ -62,7 +83,8 @@ if($dia == "Sunday"){
     $No_dia = 7; 
 }
 $disponibilidad = controladorMapa::ctrHorariosLabs($No_dia, $fechaActualSubsting, $lab, $horaActual);
-$nombreCurso = controladorMapa::ctrObtenerNombreCurso($disponibilidad[0]["No_Curso"]); 
+$nombreCurso = []; 
+if(!empty($disponibilidad)){$nombreCurso = controladorMapa::ctrObtenerNombreCurso($disponibilidad[0]["No_Curso"]); }
 if(empty($disponibilidad)){
     echo '<script> 
     swal({
@@ -83,7 +105,7 @@ if(empty($disponibilidad)){
     swal({
           title: "¡No disponible!",
           text: "El laboratorio no se encuentra disponible, se está impartiendo '. $nombreCurso[0]["Nombre"].' de: '.$disponibilidad[0]["Hora_Inicio"].' hasta: '.$disponibilidad[0]["Hora_Fin"].'",
-          type:"error",
+          type:"warning",
           confirmButtonText: "Cerrar",
           closeOnConfirm: false
         });
