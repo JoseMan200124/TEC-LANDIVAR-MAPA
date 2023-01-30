@@ -73,7 +73,7 @@
                 {
 					"id": "Análisis químico instrumental 3d",
 					"title": "Análisis químico instrumental",
-					"description": "<p>Ubicación: <strong>T-110A</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"analisis_quimico_instrumental_3d\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T-110A</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-110A\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"analisis_quimico_instrumental_3d\")' class='button-58'>Ver ruta</button></div>",
 					"category": "ciencias 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                     "image":"vistas/images/mall/labs/analisisQuimicoInstrumental.jpg",
@@ -84,7 +84,7 @@
 				{
 					"id": "Química específica 3d t113",
 					"title": "Química específica T113",
-					"description": "<p>Ubicación: <strong>T-113</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"quimica_especifica_t113\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T-113</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"B-4\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"quimica_especifica_t113\")' class='button-58'>Ver ruta</button></div>",
 					"category": "ciencias 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                     "image":"vistas/images/mall/labs/analiticaAmbiental.jpg",
@@ -95,18 +95,18 @@
 				{
 					"id": "Química general 3d",
 					"title": "Química general",
-					"description": "<p>Ubicación: <strong>T117 y T118</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"quimica_general\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T117 y T118</strong></p><div class='rutas-botones' style='display:block!important;'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-117\")' class='button-59'>Disponibilidad T117</button><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-118\")' class='button-59'>Disponibilidad T118</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"quimica_general\")' class='button-58'>Ver ruta</button></div>",
 					"category": "ciencias 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
          "image":"vistas/images/mall/labs/quimicaGeneral.jpg",
 		 "x": "0.4936",
-		 "y": "0.5471",
+		 "y": "0.5471", 
 					"zoom": "3"
 				},
 				{
 					"id": "Química específica 3d t116",
 					"title": "Química específica T116",
-					"description": "<p>Ubicación: <strong>T116</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"B-206\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"quimica_especifica_t116\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T116</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"B-10\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"quimica_especifica_t116\")' class='button-58'>Ver ruta</button></div>",
 					"category": "ciencias 3d",
                     "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                     "image":"vistas/images/mall/labs/quimicaEspecificaO.jpg",
@@ -152,7 +152,7 @@
 				{
 					"id": "Herramientas y Mecánica de bancos 3d",
 					"title": "Herramientas y mecánica de bancos",
-					"description": "<p>Ubicación: <strong>T120B</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"herramientas_y_mecanica_de_bancos\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T120B</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-120B\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"herramientas_y_mecanica_de_bancos\")' class='button-58'>Ver ruta</button></div>",
 					"category": "tecnologia 3d",
                     "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                                         "image":"vistas/images/mall/labs/bancos.jpg",
@@ -198,7 +198,7 @@
 				{
 				    "id": "Refrigeración y aire acondicionado 3d",
 					"title": "Refrigeración y aire acondicionado",
-					"description": "<p>Ubicación: <strong>T123</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"refrigeracion_y_aire_acondicionado\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T123</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-123\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"refrigeracion_y_aire_acondicionado\")' class='button-58'>Ver ruta</button></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                     "image":"vistas/images/mall/labs/refrigeracion.jpg",
@@ -323,7 +323,7 @@
                 	{
 					"id": "Computo 3d",
 					"title": "Computo",
-					"description": "<p>Ubicación: <strong>T203 y T204</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-204\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"computo\")' class='button-58'>Ver ruta</button></div>",
+					"description": "<p>Ubicación: <strong>T203 y T204</strong></p><div class='rutas-botones' style='display:block;'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-203\")' class='button-59'>Disponibilidad 203</button><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-204\")' class='button-59'>Disponibilidad 204</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"computo\")' class='button-58'>Ver ruta</button></div>",
 					"category": "tecnologia 3d",
                          "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                          "image":"https://tec.url.edu.gt/wp-content/uploads/2022/02/18022022-DSC_2975-1024x685.jpg",
@@ -358,7 +358,7 @@
                                                                                                                     {
 					"id": "Física 3d",
 					"title": "Física",
-					"description": "<p>Ubicación: <strong>T207 y T208</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"fisica\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T207 y T208</strong></p><div class='rutas-botones' style='display:block;'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-207\")' class='button-59'>Disponibilidad T207</button><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-208\")' class='button-59'>Disponibilidad T208</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"fisica\")' class='button-58'>Ver ruta</button></div>",
 					"category": "ciencias 3d",
                      "thumbnail":"vistas/images/mall/iconoCiencias.svg",
                                             "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/IMG_2170-926x1024.jpg",
@@ -369,7 +369,7 @@
 				{
 					"id": "Potencia y energías renovables 3d",
 					"title": "Potencia y energías renovables",
-					"description": "<p>Ubicación: <strong>T209</strong></p><div class='rutas-botones'><lottie-player src='https://lottie.host/9fb4d29a-9b9e-48c4-8cf4-e61750a044a6/np8mHo1QOR.json' background='transparent' speed='1' style='width: 50%; height: 100px;' loop autoplay></lottie-player><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"potencia_y_energias_renovables\")' class='button-58'>Ver ruta</button></div><div style=\"display:flex;\" class=\"disponibilidad-laboratorio\"><div style=\"width: 15px;height: 15px;background-color: green;border-radius: 15px; margin-right:10px;\"class=\"color-disponibilidad\"></div><p><strong>Disponible</strong></p></div>",
+					"description": "<p>Ubicación: <strong>T209</strong></p><div class='rutas-botones'><button type='button' style='color:#fff;margin-top:20px; margin-right:5px;' id='play-video'onclick='disponibilidad(\"T-209\")' class='button-59'>Ver Disponibilidad</button><button type='button' style='color:#fff;margin-top:20px;' id='play-video'onclick='mostrarRuta(\"potencia_y_energias_renovables\")' class='button-58'>Ver ruta</button></div>",
 					"category": "tecnologia 3d",
                      "thumbnail":"vistas/images/mall/iconoTecnologia.svg",
                           "image":"https://tec.url.edu.gt/wp-content/uploads/2022/03/18022022-DSC_2970-1024x686.jpg",

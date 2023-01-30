@@ -4,12 +4,17 @@ require_once "../modelos/mapa.modelo.php";
 if($_POST['action'] == 'T-204'){
 mostrarDisponibilidad('T-204');
 
+}if($_POST['action'] == 'T-203'){
+    mostrarDisponibilidad('T-203');
 }if($_POST['action'] == 'T-213'){
     mostrarDisponibilidad('T-213');
 
 } 
 if($_POST['action'] == 'T-125'){
     mostrarDisponibilidad('T-125');
+}
+if($_POST['action'] == 'T-123'){
+    mostrarDisponibilidad('T-123');
     
 }
 if($_POST['action'] == 'T-124'){
@@ -21,6 +26,14 @@ if($_POST['action'] == 'T-210'){
     
 }if($_POST['action'] == 'T-216'){
     mostrarDisponibilidad('T-216');
+    
+}
+if($_POST['action'] == 'T-216'){
+    mostrarDisponibilidad('T-216');
+    
+}
+if($_POST['action'] == 'T-120B'){
+    mostrarDisponibilidad('T-120B');
     
 }
 if($_POST['action'] == 'T-120C'){
@@ -50,6 +63,38 @@ if($_POST['action'] == 'T-206B'){
 if($_POST['action'] == 'B-10'){
 //T-116
     mostrarDisponibilidad('B-10');
+
+}
+if($_POST['action'] == 'B-4'){
+//T-113
+        mostrarDisponibilidad('B-4');
+}
+if($_POST['action'] == 'T-123'){
+    mostrarDisponibilidad('T-123');
+
+}
+if($_POST['action'] == 'T-110A'){
+    mostrarDisponibilidad('T-110A');
+
+}
+if($_POST['action'] == 'T-209'){
+    mostrarDisponibilidad('T-209');
+
+}
+if($_POST['action'] == 'T-117'){
+    mostrarDisponibilidad('B-17');
+
+}
+if($_POST['action'] == 'T-118'){
+    mostrarDisponibilidad('B-19');
+
+}
+if($_POST['action'] == 'T-207'){
+    mostrarDisponibilidad('T-207');
+
+}
+if($_POST['action'] == 'T-208'){
+    mostrarDisponibilidad('T-208');
 
 }
 function mostrarDisponibilidad($lab){
@@ -86,6 +131,18 @@ $disponibilidad = controladorMapa::ctrHorariosLabs($No_dia, $fechaActualSubsting
 $nombreCurso = []; 
 if(!empty($disponibilidad)){$nombreCurso = controladorMapa::ctrObtenerNombreCurso($disponibilidad[0]["No_Curso"]); }
 if(empty($disponibilidad)){
+    if($lab == 'B-4'){
+        $lab = "T-113";
+    }
+    if($lab == 'B-10'){
+        $lab = "T-116";
+    }
+    if($lab == 'B-17'){
+        $lab = "T-117";
+    }
+    if($lab == 'B-19'){
+        $lab = "T-118";
+    }
     echo '<script> 
     swal({
           title: "¡'.$lab.' Disponible!",
